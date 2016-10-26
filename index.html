@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+</head>
+<body>
+
+
+	<div ng-app="">
+		<input placeholder='Insert a noun' type="text" ng-model="noun"/>
+		<input placeholder="Insert an adjective" class='adjective' type="text" ng-model="adjective">
+	
+		<h1>My favorite food is {{noun || '_______________'}} and it's {{adjective || '_______________'}} !</h1> <!-- Angular expression -->
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+</body>
+</html>
